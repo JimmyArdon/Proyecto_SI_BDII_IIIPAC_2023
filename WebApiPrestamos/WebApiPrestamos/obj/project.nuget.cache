@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AVC1g62I+FNGgT9KHWSO55QFOx7iryPIZQZxYvjDrJgCRrOJBAzfOLlGNvxPpYPQSHp8QU582TxlE0NJq16SUQ==",
+  "dgSpecHash": "22ojX7W1j2wWMmc63BCbU4ZuTqZ8oV0Lwm1FL6aA6Ruj7EorgL/jcFIuuALnqifV36UQlJtU8X3FQCgxp7OkoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\WebApiPrestamos\\WebApiPrestamos\\WebApiPrestamos.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\Proyecto_SI_BDII_IIIPAC_2023\\WebApiPrestamos\\WebApiPrestamos\\WebApiPrestamos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

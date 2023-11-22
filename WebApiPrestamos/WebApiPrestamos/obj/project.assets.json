@@ -3828,11 +3828,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\WebApiPrestamos\\WebApiPrestamos\\WebApiPrestamos.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\Proyecto_SI_BDII_IIIPAC_2023\\WebApiPrestamos\\WebApiPrestamos\\WebApiPrestamos.csproj",
       "projectName": "WebApiPrestamos",
-      "projectPath": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\WebApiPrestamos\\WebApiPrestamos\\WebApiPrestamos.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\Proyecto_SI_BDII_IIIPAC_2023\\WebApiPrestamos\\WebApiPrestamos\\WebApiPrestamos.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\WebApiPrestamos\\WebApiPrestamos\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Documentos\\U\\III PAC 2023\\Proyecto\\Proyecto_SI_BDII_IIIPAC_2023\\WebApiPrestamos\\WebApiPrestamos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

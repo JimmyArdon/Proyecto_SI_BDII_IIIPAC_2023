@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApiPrestamos.Entities;
 
@@ -11,9 +12,11 @@ using WebApiPrestamos.Entities;
 namespace WebApiPrestamos.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231127023450_prestamos")]
+    partial class prestamos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -269,7 +272,7 @@ namespace WebApiPrestamos.Migrations
 
                     b.HasIndex("usuario_id");
 
-                    b.ToTable("clientes", "transaccional", t =>
+                    b.ToTable("clientes", "Security", t =>
                         {
                             t.Property("usuario_id")
                                 .HasColumnName("usuario_id1");
@@ -311,7 +314,7 @@ namespace WebApiPrestamos.Migrations
 
                     b.HasIndex("PlanDePagoId");
 
-                    b.ToTable("cuotas", "transaccional");
+                    b.ToTable("cuotas", "Security");
                 });
 
             modelBuilder.Entity("WebApiPrestamos.Entities.EstadoCuota", b =>
@@ -329,7 +332,7 @@ namespace WebApiPrestamos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("estado_cuotas", "transaccional");
+                    b.ToTable("estado_cuotas", "Security");
                 });
 
             modelBuilder.Entity("WebApiPrestamos.Entities.EstadoPlanPago", b =>
@@ -349,7 +352,7 @@ namespace WebApiPrestamos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("estados_plan_pago", "transaccional");
+                    b.ToTable("estados_plan_pago", "Security");
                 });
 
             modelBuilder.Entity("WebApiPrestamos.Entities.EstadoSolicitud", b =>
@@ -369,7 +372,7 @@ namespace WebApiPrestamos.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("estados_solicitud", "transaccional");
+                    b.ToTable("estados_solicitud", "Security");
                 });
 
             modelBuilder.Entity("WebApiPrestamos.Entities.PlanDePago", b =>
@@ -407,7 +410,7 @@ namespace WebApiPrestamos.Migrations
 
                     b.HasIndex("PrestamoId");
 
-                    b.ToTable("planes_pago", "transaccional");
+                    b.ToTable("planes_pago", "Security");
                 });
 
             modelBuilder.Entity("WebApiPrestamos.Entities.Prestamo", b =>
@@ -454,7 +457,7 @@ namespace WebApiPrestamos.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("prestamos", "transaccional");
+                    b.ToTable("prestamos", "Security");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -45,8 +45,6 @@ namespace WebApiPrestamos
 
             services.AddAutoMapper(typeof(Startup));
 
-
-
             // Add Identity
             services.AddIdentity<IdentityUser, IdentityRole>(options =>
             {
@@ -84,7 +82,8 @@ namespace WebApiPrestamos
             // Add CORS
             services.AddCors(opciones =>
             {
-                opciones.AddPolicy("CorsRule", rule => {
+                opciones.AddPolicy("CorsRule", rule =>
+                {
                     rule.AllowAnyHeader().AllowAnyMethod().WithOrigins("*");
                 });
             });

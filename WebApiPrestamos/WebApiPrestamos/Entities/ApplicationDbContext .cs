@@ -28,5 +28,11 @@ namespace WebApiPrestamos.Entities
             //    .HasIndex(x => x.ISBN)
             //    .IsUnique(true);
         }
+
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Prestamo> Prestamos { get; set; }
+        public DbSet<PlanDePago> PlanDePagos { get; set; }
+        public DbSet<Cuota> Cuotas { get; set; }
+        public DbSet<EstadoSolicitud> EstadoSolicitudes { get; set; }
     }
 }
